@@ -65,7 +65,7 @@ const FiltersGroup = props => {
 
   const onEnterSearchInput = event => {
     const {enterSearchInput} = props
-    if (event.key === 'enter') {
+    if (event.key === 'Enter') {
       enterSearchInput()
     }
   }
